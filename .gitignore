@@ -1,0 +1,12 @@
+__pycache__/
+.env
+.pytest_cache/
+
+### macOS ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+### PyCharm and VScode ###
+.idea/
+.vscode/
