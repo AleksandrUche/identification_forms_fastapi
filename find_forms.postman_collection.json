@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "0e11046f-feca-451e-bfbe-0ae2afd0134a",
+		"name": "find_forms",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34649444"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "user_email",
+							"value": "test@example.com",
+							"type": "text"
+						},
+						{
+							"key": "user_phone",
+							"value": "+7 123 456 78 90",
+							"type": "text"
+						},
+						{
+							"key": "order_date",
+							"value": "2024-12-01",
+							"type": "text"
+						},
+						{
+							"key": "random_field",
+							"value": "hello world",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/get_form",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"get_form"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "identification-forms"
+version = "0.1.0"
+description = ""
+authors = ["UchvatovA"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+tinydb = "^4.8.2"
+pydantic = {extras = ["email"], version = "^2.10.3"}
+python-multipart = "^0.0.19"
+httpx = "^0.28.1"
+pytest = "^8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
